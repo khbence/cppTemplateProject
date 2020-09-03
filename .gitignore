@@ -1,0 +1,7 @@
+Debug/*
+!Debug/.keepDirectory
+Release/*
+!Release/.keepDirectory
+compile_commands.json
+.vscode
+
