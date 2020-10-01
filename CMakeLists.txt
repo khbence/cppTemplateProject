@@ -69,6 +69,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(SRC_LIBRARY "tmpLibrary")
 set(MAIN_BINARY "tmp")
 set(TEST_BINARY "testTmp")
+
 add_library(${SRC_LIBRARY})
 target_link_libraries(${SRC_LIBRARY} PUBLIC project_options project_warnings)
 
